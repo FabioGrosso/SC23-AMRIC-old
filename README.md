@@ -1,5 +1,5 @@
 # AMRIC Artifacts
-The entire workflow takes approximately 12 minutes to execute, including downloading container image and preparing environment (3 mins), running WarpX simulation (4 mins), running Nyx simulation (3 mins), and evaluating compression performance (2 mins).
+The entire workflow takes approximately 11 minutes to execute, including downloading container image and preparing environment (3 mins), running WarpX simulation (4 mins), running Nyx simulation (3 mins), and evaluating compression performance (1 min).
 
 ### Minimum system requirements
 OS: Ubuntu (20.04 is recommended)
