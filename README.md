@@ -1,6 +1,8 @@
 # AMRIC Artifacts
-The entire workflow takes approximately 10 minutes to execute, including downloading container image and preparing environment (3 mins), running WarpX simulation (3 mins), running Nyx simulation (3 mins), and evaluating compression performance (1 min).
 
+
+## Method 1: Use Singularity Image (Recommended)
+The entire workflow takes approximately 10 minutes to execute, including downloading container image and preparing environment (3 mins), running WarpX simulation (3 mins), running Nyx simulation (3 mins), and evaluating compression performance (1 min).
 ### Minimum system requirements
 OS: Ubuntu (20.04 is recommended)
 
@@ -75,3 +77,16 @@ cd /home/wpx256/otfile/
 cd /home/nyx128/otfile/
 . io.sh
 ```
+
+## Method 2: Build from source
+### Minimum system & software libraries requirements
+OS: Linux
+Memory: >= 16 GB RAM
+Processor: >= 8 cores
+gcc/9.3.0
+cmake (>= 3.23)
+spectrum-mpi/10.4.0.3
+python/3.8
+hdf5/1.12.2 (install scripts provided)
+
+
